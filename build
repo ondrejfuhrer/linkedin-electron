@@ -1,0 +1,2 @@
+npm install
+electron-packager . LinkedIn --out=/Applications/ --icon=LinkedIn.icns --overwrite
