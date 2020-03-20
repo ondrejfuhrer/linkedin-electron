@@ -7,7 +7,7 @@
   "scripts": {
     "start": "electron .",
     "package-mac": "electron-packager . LinkedIn --overwrite --platform=darwin --arch=x64 --icon=assets/icons/macos/linkedin.icns --prune=true --out=release-builds",
-    "package-win": "electron-packager . LinkedIn--overwrite --asar --platform=win32 --arch=ia32 --icon=assets/icons/win/linkedin.ico --prune=true --out=release-builds --version-string.CompanyName=\"Ondrej Führer\" --version-string.FileDescription=\"LinkedIn Desktop App build with Electron\" --version-string.ProductName=\"LinkedIn Desktop\"",    
+    "package-win": "electron-packager . LinkedIn--overwrite --asar --platform=win32 --arch=ia32 --icon=assets/icons/win/linkedin.ico --prune=true --out=release-builds --version-string.CompanyName=\"Ondrej Führer\" --version-string.FileDescription=\"LinkedIn Desktop App build with Electron\" --version-string.ProductName=\"LinkedIn Desktop\"",
     "package-linux": "electron-packager . LinkedIn --overwrite --asar --platform=linux --arch=x64 --icon=assets/icons/png/1024x1024.png --prune=true --out=release-builds"
   },
   "repository": "https://github.com/ondrejfuhrer/linkedin-electron",
@@ -19,8 +19,8 @@
   "author": "Ondrej Führer",
   "license": "CC0 1.0 Universal",
   "devDependencies": {
-    "electron": "^7.1.4",
-    "electron-packager": "^14.1.1"
+    "electron": "^8.1.1",
+    "electron-packager": "^14.2.1"
   },
   "dependencies": {
     "electron-window-state": "^5.0.3"
